@@ -1,0 +1,16 @@
+#content label {
+	font-size: 12px; 
+}
+
+#content select {
+	width: 100%; 
+}
+
+#content button.ui-button {
+	/*background: #1ca9e1;*/
+	border: none; 
+	margin: 0 !important;
+}
+#content button.ui-button:hover {
+	background: #1ca9e1; 
+}

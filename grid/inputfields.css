@@ -1,0 +1,165 @@
+#content {
+	/* if 100%, there is some overlap at the right edge */
+	width: 99%; 
+}
+
+.Inputfield{
+	border-bottom: 1px solid #aaa;
+	margin: 0 !important;
+}
+.Inputfield.focus{
+	background: #fff;
+}
+.Inputfield.focus > .ui-widget-header{
+	color: #333;
+}
+.Inputfield > .ui-widget-content{
+	border: 0;
+	padding: 0 0.8em !important;
+	margin: 0; 
+}
+.Inputfield > .ui-widget-header{
+	padding: 0.6em 0.8em !important;
+	text-transform: uppercase;
+	color: #888;
+}
+
+.Inputfield.InputfieldColumnWidth{
+	margin-left: 0 !important;
+	/*padding-left: 1% !important;*/
+	margin: 0 0 0 -1px !important;
+	border-left: 1px solid #aaa;
+}
+.Inputfield.InputfieldColumnWidth.InputfieldColumnWidthFirst{
+	padding-left: 0 !important;
+	border-left: 0;
+}
+
+.Inputfield.InputfieldFieldset{
+	border: 0;
+	margin: 3em 0 1em 0 !important;
+}
+.InputfieldFieldset > .ui-widget-header{
+	border-bottom: 4px solid #444 !important;
+	margin: 0 !important;
+	padding: 0.5em 0 !important;
+	color: #222;
+}
+.InputfieldFieldset > .ui-widget-content{
+	padding: 0 !important;
+}
+
+
+form.InputfieldForm {
+	/* in webkit there is slight truncation of radio buttons and checkboxes if we don't do this */
+	margin-left: 1px; 
+	position: relative;
+	left:
+}
+.Inputfields .ui-widget-header {
+	border: none;
+	background: none; 
+	margin: 0;
+	padding: 0; 
+}
+
+#content .Inputfields .ui-widget-content, 
+#content .Inputfield > .ui-widget-content {
+	
+	background: none;
+	
+	/*padding-left: 0;*/
+	/*padding-bottom: 0;*/
+	margin-top: 0; 
+	margin-bottom: 0.25em; 
+}
+
+#content label.ui-widget-header .ui-icon {
+	display: none; 
+}
+
+#content .InputfieldFieldset > .ui-widget-content {
+	padding: 0; 
+	border: none;
+}
+#content .InputfieldFieldset > label.ui-widget-header {
+	font-size: 1.6em; 
+	margin: 1em 0 0.4em 0;
+	padding-left: 0;
+	border: none;
+}
+.InputfieldStateRequired > label.ui-widget-header:first-child:after {
+	color: red; 
+        content: ' *';
+}
+
+.Inputfields .Inputfields{
+	padding: 0!important;
+}
+
+.InputfieldFieldset{
+	margin-bottom: 2em!important;
+}
+/*.Inputfields .Inputfield{
+	padding: 0.3em!important;
+}*/
+.InputfieldDatetimeDatepicker,
+.InputfieldInteger input{
+	width: 100%;
+}
+
+
+input, select, textarea{
+	border: 0 !important;
+	padding: 0.6em 0 !important;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	line-height: 1.4em;
+	outline: 0 !important;
+
+}
+select{
+	padding: 3px 4px!important;
+
+}
+input:focus{
+	outline: none;
+
+}
+
+.InputfieldFormBuilderFileList input{
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding: 0!important;
+}
+.InputfieldRadiosFloated {
+	padding-top: 0.3em;
+}
+
+#content.content .ui-button {
+font-size: 1.4em;
+padding: 6px 12px;
+text-transform: uppercase;
+font-weight: bold;
+margin: 0 1em 0 0;
+}
+
+.InputfieldSubmit{
+	clear: both!important;
+	text-align: right;
+	padding-top: 1em !important;
+	border: 0 !important;
+}
+.InputfieldSubmit > .ui-widget-content{
+	padding: 0 !important;
+}
+
+/* SPECIAL CASE */
+
+.Inputfield_user_agreement .ui-widget-header{
+	display: none!important;
+}
