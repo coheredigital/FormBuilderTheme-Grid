@@ -7,10 +7,16 @@
 }
 
 #content button.ui-button {
-	/*background: #1ca9e1;*/
+	background: #1ca9e1;
 	border: none; 
 	margin: 0 !important;
+	border-radius: 0.2em;
+	-webkit-box-shadow: 0em -0.185rem 0em rgba(0, 0, 0, 0.2) inset;
+	-moz-box-shadow: 0em -0.185rem 0em rgba(0, 0, 0, 0.2) inset;
+	box-shadow: 0em -0.185rem 0em rgba(0, 0, 0, 0.2) inset;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 #content button.ui-button:hover {
-	background: #1ca9e1; 
+	background: #60c3ea; 
+
 }

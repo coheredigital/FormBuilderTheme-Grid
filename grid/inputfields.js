@@ -21,4 +21,21 @@ $(document).ready(function() {
 	$("input, textarea").blur(function(){
 		$(this).closest(".Inputfield").removeClass("focus");
 	});
+
+
+	// equalize height
+	$(".InputfieldColumnWidthFirst").each(function(){
+		var maxHeight = 0;
+
+		$inputFieldRow = $(this).nextUntil(".InputfieldColumnWidthFirst, :not(.InputfieldColumnWidth)").addBack();
+
+		$inputFieldRow.each(function(){
+			var h = $(this).height();
+			maxHeight = h > maxHeight ? h : maxHeight;
+		});
+
+		$inputFieldRow.addBack().css("height",maxHeight);
+		console.log(maxHeight);
+	});
+
 }); 
